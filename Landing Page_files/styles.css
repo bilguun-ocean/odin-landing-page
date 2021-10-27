@@ -7,22 +7,15 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #d63a2c
-    ;
 }
 
-.photo img {
+img {
     width: 575px;
-    height: auto;
-}
-
-.logo {
-    height: auto;
-    width: 100px;
+    height: auto
 }
 
 .header {
-    background-color: #17323f;
+    background-color: #1f2937;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -69,14 +62,14 @@ body {
     display: flex;
     flex-direction: column;
     width: 450px;
-    gap: 20px;
+    gap: 2px;
 }
 
 .sign-up{
     text-align: center;
     width: 80px;
     padding: 4px 10px;
-    background-color: #FF4637;
+    background-color: #3882f6;
     border-radius: 10px;
 }
 
@@ -96,7 +89,7 @@ body {
 .content-header {
     font-size: 36px;
     font-weight: 800;
-    color: #fff;
+    color: #1f2937;
 }
 
 .items {
@@ -111,25 +104,14 @@ body {
 }
 
 .border {
-    width: 200px;
-    height: 200px;
-    border: 5px solid #C1CDAD;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
     border-radius: 10%;
 }
 
-.text {
-    color: #fff;
-    font-size: 16px;
-}
-
-.border img{
-    width: 190px;
-    height: auto;
-    border-radius: 15px;
-}
-
 .quote {
-    background-color: #C1CDAD;
+    background-color: #E5E7EB;
     height: 300px;
     display: flex;
     align-items: center;
@@ -156,7 +138,7 @@ body {
 }
 
 .call {
-    background-color: #279aaf;
+    background-color: #3882f6;
     display: flex;
     width: 1150px;
     justify-content: center;
@@ -192,7 +174,7 @@ footer {
     display: flex;
     align-self: center;
     justify-content: center;
-    background-color: #17323f;
+    background-color: #1f2937;
     color: #fff;
     width: 100%;
     padding: 30px 0;
@@ -200,26 +182,12 @@ footer {
 }
 
 ul {
-    font-size: 20px;
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 16px;
     padding: 0px;
-    margin-top: 20px;
 }
 
-a:any-link {
-    text-decoration: none;
-    color: #fff;
-}
+li {
 
-li a:hover {
-    background-color: #204557;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.sign-up a:hover {
-    background-color: #d33a2c;
-    border-radius: 10px;
 }
